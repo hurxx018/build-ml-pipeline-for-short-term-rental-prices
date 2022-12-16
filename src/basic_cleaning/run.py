@@ -42,7 +42,7 @@ def go(args):
     df['last_review'] = pd.to_datetime(df['last_review'])
 
     filename = "clean_data.csv"
-    df.to_csv(filename)
+    df.to_csv(filename, index=False)
 
     artifact = wandb.Artifact(
         args.output_artifact,
