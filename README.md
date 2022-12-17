@@ -5,7 +5,7 @@ on the price of similar properties. Your company receives new data in bulk every
 to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
 
 ## Instruction
-See REAMDME_instruction.md
+See README_instruction.md
 
 ## Run a mlflow using the pipeline
 mlflow run https://github.com/hurxx018/build-ml-pipeline-for-short-term-rental-prices -v 1.0.1 -P hydra_options="etl.sample='sample2.csv'"
